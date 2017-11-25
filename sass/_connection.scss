@@ -1,0 +1,45 @@
+// === общие стили ===/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+}
+
+// %link-base {
+//   font: normal 16px Arial, sans-serif;
+//   color: #007ece;
+//   text-decoration: none;
+//   &:hover {
+//     color: #000;
+// }
+
+// end
+
+.page-techer {
+  background-color: #eaeaea;
+}
+
+.width {  //универсальная стандартная обертка для контейнеров
+  max-width: 1000px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.breadcrumb {
+  margin: 0;
+  list-style: none;
+}
